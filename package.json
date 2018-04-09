@@ -1,0 +1,21 @@
+{
+  "name": "Zadanie_14.7",
+  "version": "1.0.0",
+  "description": "Site published at https://solitary82.github.io/kodilla_zadanie_14.5",
+  "main": "script.js",
+  "scripts": {
+    "test": "npm-run-all test:*",
+    "test:js1": "jshint script.js",
+    "test:js2": "jshint components/",
+    "test:html": "nu-html-checker index.html",
+    "download": "curl https://raw.githubusercontent.com/jshint/jshint/master/examples/.jshintrc -o .jshintrc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "npm-run-all": "^4.1.2",
+    "nu-html-checker": "^0.1.0"
+  }
+}

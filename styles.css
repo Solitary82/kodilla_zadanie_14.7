@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    background-color: #ff7f50;
+    text-align: center;
+    padding: 50px;
+}
+
+img {
+    width: 20%;
+    float: left;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.contactItem {
+    padding: 30px;
+    border: 1px dotted #ffffff;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: #f5b69f;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px; 
+    background-color: #228b22;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #228b22;
+    cursor: pointer;
+}
