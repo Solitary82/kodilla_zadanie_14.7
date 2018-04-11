@@ -4,11 +4,13 @@
   "description": "Site published at  https://solitary82.github.io/kodilla_zadanie_14.7/",
   "main": "script.js",
   "scripts": {
+    "start": "http-server",
     "test": "npm-run-all test:*",
     "test:js1": "jshint script.js",
     "test:js2": "jshint components/",
     "test:html": "nu-html-checker index.html",
-    "download": "curl https://raw.githubusercontent.com/jshint/jshint/master/examples/.jshintrc -o .jshintrc"
+    "jshintrc": "curl https://raw.githubusercontent.com/jshint/jshint/master/examples/.jshintrc -o .jshintrc",
+    "gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
   },
   "repository": {
     "type": "git",
