@@ -1,1 +1,1 @@
-Site published at  https://solitary82.github.io/kodilla_zadanie_14.7/
+Site published at  https://mwaplak.github.io/kodilla_zadanie_14.7/
